@@ -1,0 +1,2 @@
+$r53Secret = Read-Host 'Enter Secret' -AsSecureString
+$pArgs = @{R53AccessKey='ABCD1234'; R53SecretKey=$r53Secret}
